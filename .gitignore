@@ -1,0 +1,24 @@
+# Database Access Gateway for your private instances
+
+
+You dont need to worry about VPC configurations while developing your application.
+
+While you are waiting for your Cloud Architect to create configuration for your Network Setup on your Cloud.
+
+You can easily deploy this application to the serverless on database region with needed security groups and can expose endpoint 
+to other application
+
+Make sure you have these steps before deploying
+
+- Restrict access to VMs / App public IPs
+- DO NOT REMOVE HEADER check in the repo
+- only use for dev to testing environments.
+
+
+This is developed for fun on VPC peering issues when you cannot change anything on your VPC where 
+you need to redesign your network architecture
+
+So your dev team is not blocked by the task while you are updating network configurations
+
+
+
